@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>TODO Application</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- FONTAWESOME -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+
+</head>
+<body>
+<!-- codigo app -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12 col-xs-12 nopadd">
+				<div class="title">
+					<h1>To Do App</h1>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 col-xs-12">
+				<center>
+					<form action="formulario" class="formulario">		
+	                    <textarea id="tarea" class="btn-block" rows="5" cols="50" placeholder="Añade una nueva tarea"></textarea>
+	                </form>
+	                <button type="button" id="agregar" class="btn btn-primary btn-sm">Añadir tarea</button>
+                </center>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-sm-12 col-xs-12">
+				<div class="list" id="list">
+					<ul class="lista" id="lista">
+						<!-- aqui se añadirán los li -->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
